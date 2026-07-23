@@ -1,80 +1,104 @@
-nav{
-background-color: #2B3844;
-display: flex;
-justify-content: space-around;
-color: #FFFFFF;
-gap: 800px;
-width: 100%;
-height: 80px
+nav {
+    background-color: #2B3844;
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+    gap: 800px;
+    width: 100%;
+    height: 80px
 }
-.dark{
-    margin-top: 30px ;
+
+.dark {
+    margin-top: 30px;
 }
-.btn{
-display: flex;
-gap: 15px;
-background-color: #2B3844;
-color: #FFFFFF;
-border-radius: 5px;
-border-color: #2B3844;
-margin-top: 25px;
-margin-left: 35px;
-width: 480px;
-height: 56px;
+
+.btn {
+    display: flex;
+    gap: 15px;
+    background-color: #2B3844;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border-color: #2B3844;
+    margin-top: 25px;
+    margin-left: 35px;
+    width: 480px;
+    height: 56px;
 }
-.inp{
+
+.inp {
     width: 480px;
     height: 56px;
     background-color: #2B3844;
     margin-top: 50px;
     margin-left: 50px;
 }
-.box{
+
+.box {
     width: 264px;
     height: 250px;
     background-color: #2B3844;
 }
-main{
+
+main {
     width: 100%;
     height: 944px;
     background-color: #202C36;
 }
-@media(max-width:834px){
-nav{
-    width: 100%;
+.container{
     display: flex;
     justify-content: space-around;
-    gap: 400px;
-}
-
-.inp{
-width: calc(100% - 60px);
-        margin: 30px 20px;}
-        the{
-            width: 175px;
-            height: 25px;
-        }
-        main{
-            flex-wrap: wrap;
-        }
+    margin-top: 50px;
 
 }
-@media(max-width:375px){
-nav{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    gap: 80px;
+
+@media(max-width:834px) {
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        gap: 300px;
+    }
+
+    .inp {
+        width: calc(100% - 60px);
+        margin: 30px 20px;
+    }
+
+    .the {
+        width: 175px;
+        height: 25px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around; 
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+
 }
 
-.inp{
-width: calc(100% - 40px);
-        margin: 30px 20px;}
-        the{
-            width: 135px;
-            height: 20px;
-        }
-main{
-    flex-wrap: wrap;
-}
+@media(max-width:375px) {
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        gap: 80px;
+    }
+
+    .inp {
+        width: calc(100% - 40px);
+        margin: 30px 20px;
+    }
+
+    .the {
+        width: 135px;
+        height: 20px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around; 
+        margin-top: 50px;
+        flex-wrap: wrap;
 }
