@@ -54,6 +54,9 @@ width: calc(100% - 60px);
             width: 175px;
             height: 25px;
         }
+        main{
+            flex-wrap: wrap;
+        }
 
 }
 @media(max-width:375px){
@@ -68,8 +71,10 @@ nav{
 width: calc(100% - 40px);
         margin: 30px 20px;}
         the{
-            width: 175px;
-            height: 25px;
+            width: 135px;
+            height: 20px;
         }
-
+main{
+    flex-wrap: wrap;
+}
 }
